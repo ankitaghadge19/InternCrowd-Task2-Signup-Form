@@ -1,0 +1,131 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #93b8cc;
+}
+
+/* ----------------------------------------------------------Navbar----------------------------------------------------------------- */
+.nav {
+  background-color: #131433;
+}
+.nav-link {
+  color: #93b8cc;
+}
+.nav-link:hover {
+  color: #6c6afc;
+  text-decoration: underline;
+}
+.nav-link-active {
+  color: #6c6afc;
+  display: inline-block;
+  background-color: black;
+  border-radius: 8px;
+}
+
+label.logo {
+  color: #131433;
+  margin: 8px;
+  background-color: #93b8cc;
+  font-weight: bold;
+  font-family: sans-serif;
+}
+
+#navLogo {
+  height: 2.5rem;
+  padding: 5px 7px;
+  border-radius: 8px;
+  margin-left: 5.5px;
+}
+
+#label {
+  color: white;
+  padding: 3px;
+  padding-right: 36rem;
+  margin-top: 5px;
+}
+
+.headerImg {
+  width: 5rem;
+  height: 5rem;
+}
+
+/* ------------------------------------------Sign up form--------------------------------------------------------------------- */
+
+.form-box {
+  width: 90%;
+  max-width: 365px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #fff;
+  padding: 20px 60px 33px;
+  text-align: center;
+  border-radius: 20px;
+}
+
+.form-box h1 {
+  font-size: 30px;
+  margin-bottom: 6px;
+  color: #131433;
+}
+
+.input-field {
+  background: #eaeaea;
+  margin: 15px 0;
+  border-radius: 3px;
+  display: flex;
+  align-items: center;
+  max-height: 65px;
+  transition: max-height 0.5s;
+  overflow: hidden;
+}
+
+input {
+  width: 100%;
+  background: transparent;
+  border: 0;
+  outline: 0;
+  padding: 18px 15px;
+}
+
+.input-field i {
+  margin-left: 15px;
+  color: #999;
+}
+
+form p {
+  text-align: left;
+  font-size: 13px;
+}
+
+.btn-field {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.btn-field button {
+  flex-basis: 48%;
+  background-color: #131433;
+  color: white;
+  height: 40px;
+  border-radius: 20px;
+  border: 0;
+  outline: 0;
+  cursor: pointer;
+  transition: background 1s;
+}
+
+.input-group {
+  height: 300px;
+}
+
+.btn-field button.disable {
+  background-color: #aeaeae;
+  color: #555;
+}
